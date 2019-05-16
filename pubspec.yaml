@@ -9,7 +9,11 @@ dependencies:
   flutter:
     sdk: flutter
   location_permissions: "^2.0.1"
-  google_api_availability: "^2.0.0"
+  google_api_availability:
+    git:
+       url: https://github.com/robotsrulz/flutter-google-api-availability.git
+       ref: activity-vs-context
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
